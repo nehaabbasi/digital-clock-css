@@ -72,5 +72,39 @@
     100% {
       border-color: rgba(255, 0, 0, 0.8);
     }
+  }@media (max-width: 768px) {
+  body {
+      background-repeat: no-repeat; 
+      background-size: cover;
   }
+
+  #txt {
+      width: 80%;
+      height: 30vh;
+      font-size: 4em;
+      margin-top: 20%;
+  }
+
+  h1 {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+      background-repeat: no-repeat; 
+      background-size: cover;
+  }
+
+  #txt {
+      width: 90%;
+      height: 25vh;
+      font-size: 3em;
+      margin-top: 25%;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+}
   
